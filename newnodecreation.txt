@@ -1,1 +1,9 @@
+Nodes get created when a flow is deployed, they may send and receive some messages whilst the flow is running and they get deleted when the next flow is deployed.
+
+They consist of a pair of files:
+
+1. a JavaScript file that defines what the node does,
+2. an html file that defines the node’s properties, edit dialog and help text.
+
+For more details check link
 https://nodered.org/docs/creating-nodes/first-node
