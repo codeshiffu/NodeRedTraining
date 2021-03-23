@@ -1,1 +1,0 @@
-[{"id":"fcea5f3d.3a6b2","type":"change","z":"56970bdc.c12284","name":"Set output","rules":[{"t":"set","p":"payload","pt":"msg","to":"payload.compact.outdoor.temperature*10 & '%' & payload.compact.outdoor.humidity*10","tot":"jsonata"}],"action":"","property":"","from":"","to":"","reg":false,"x":270,"y":340,"wires":[["8e696c1b.b8c28"]]}]
